@@ -59,8 +59,16 @@ P{
    margin-left: 3%;
    margin-right: 3%;
 }
-#border_part{
+#border_part1{
    border-left: 10px solid;
+   border-image: linear-gradient(red,tomato);
+   border-image-slice: 1;
+   
+}
+#border_part2{
+   border-left: 10px solid;
+   border-image: linear-gradient(blue,cyan);
+   border-image-slice: 1;
 }
 footer p{
    text-align: center;
